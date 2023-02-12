@@ -1,4 +1,4 @@
-# Description: Sentiment Analysis with Coherence
+# Description: A program that tracks the mouse and plots the coordinates on a graph
 import numpy as np
 import matplotlib.pyplot as plt
 import json
