@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Mouse Tracking</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+        </ul>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <div id="c_ontainer">
+        <!-- <canvas id="myChart"></canvas> -->
+        <iframe src="{{ url_for('graph') }}" width="800" height="600"></iframe>
+         <!-- <iframe src="{{ url_for('graph_data') }}" width="800" height="600"></iframe> -->
+    </div>
+    <script src="../static/mouse_tracking.js"></script>
+</body>
+
+</html>
